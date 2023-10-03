@@ -14,24 +14,24 @@
 
   <div class="calculator">
     <input class="viewFinder" type="result" id="result" disabled>
-    <button onclick="clean()">AC</button>
-    <button onclick="addOperator('%')">%</button>
-    <button onclick="addOperator('/')">/</button>
-    <button onclick="addOperator('*')">*</button>
-    <button onclick="addNumber(7)">7</button>
-    <button onclick="addNumber(8)">8</button>
-    <button onclick="addNumber(9)">9</button>
-    <button onclick="addOperator('-')">-</button>
-    <button onclick="addNumber(4)">4</button>
-    <button onclick="addNumber(5)">5</button>
-    <button onclick="addNumber(6)">6</button>
-    <button onclick="addOperator('+')">+</button>
-    <button onclick="addNumber(1)">1</button>
-    <button onclick="addNumber(2)">2</button>
-    <button onclick="addNumber(3)">3</button>
-    <button onclick="calculate()" id="equals">=</button>
-    <button onclick="addNumber(0)" id="zero">0</button>
-    <button onclick="addNumber('.')">.</button>
+    <button onclick="clean()" class="operator">AC</button>
+    <button onclick="addOperator('%')" class="operator">%</button>
+    <button onclick="addOperator('/')" class="operator">/</button>
+    <button onclick="addOperator('*')" class="operator">*</button>
+    <button onclick="addNumber(7)" class="number">7</button>
+    <button onclick="addNumber(8)" class="number">8</button>
+    <button onclick="addNumber(9)" class="number">9</button>
+    <button onclick="addOperator('-')" class="operator">-</button>
+    <button onclick="addNumber(4)" class="number">4</button>
+    <button onclick="addNumber(5)" class="number">5</button>
+    <button onclick="addNumber(6)" class="number">6</button>
+    <button onclick="addOperator('+')" class="operator">+</button>
+    <button onclick="addNumber(1)" class="number">1</button>
+    <button onclick="addNumber(2)" class="number">2</button>
+    <button onclick="addNumber(3)" class="number">3</button>
+    <button onclick="calculate()" id="equals" class="operator">=</button>
+    <button onclick="addNumber(0)" id="zero" class="number">0</button>
+    <button onclick="addNumber('.')" class="number">.</button>
   </div>
 
 </body>
